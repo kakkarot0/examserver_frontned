@@ -1,0 +1,110 @@
+
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.login-form-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  background-color: #fff;
+}
+
+.login-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-form:focus {
+  margin-bottom: 15px;
+  border: 3px solid #555;
+}
+
+.login-button {
+  width: 100%;
+}
+
+.eye-icon-btn {
+  cursor: pointer;
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+
+
+/* Style the PhoneInput field */
+.react-phone-number-input__input {
+  width: 100% !important; /* Ensure it takes full width */
+  padding: 10px !important;
+  font-size: 16px !important;
+  border-radius: 5px !important;
+  border: 1px solid #ccc !important;
+  background-color: #f9f9f9 !important;
+  margin-bottom: 10px !important;
+}
+
+/* Style the dropdown for country selection */
+.react-phone-number-input__country {
+  width: 50px !important; /* Adjust width of country selection */
+  height: 100%;
+  border-right: 1px solid #ccc !important;
+}
+
+/* Style the country code flag and input text */
+.react-phone-number-input__flag {
+  padding-right: 5px !important; /* Space between flag and input */
+}
+
+.react-phone-number-input__input {
+  width: calc(100% - 60px) !important; /* Adjust to make room for country code dropdown */
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  font-size: 14px !important;
+}
+
+/* Style for the PhoneInput input focus state */
+.react-phone-number-input:focus-within .react-phone-number-input__input {
+  border: 1px solid #007bff !important;
+}
+
+/* Optional: Adjust the country code input area size */
+.react-phone-number-input__country-select {
+  background-color: #fff !important;
+  border-radius: 5px !important;
+  border: 1px solid #ccc !important;
+  padding: 5px !important;
+}
+
+/* Apply styles to the PhoneInput wrapper */
+.phone-input-wrapper .react-phone-number-input__input {
+  width: 100% !important;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+.phone-input-wrapper .react-phone-number-input__country {
+  width: 50px !important;
+  border-right: 1px solid #ccc;
+}
+
+.hr-divider {
+  border-top: 2px solid #0b0b0b; /* Customize line thickness and color */
+  width: 100%;
+}
+
+.hr-divider span {
+  font-size: 14px; /* Customize font size */
+  font-weight: bold; /* Make the text bold */
+  color: #131313; /* Change text color */
+}
+
+

@@ -1,0 +1,186 @@
+/* Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container for the Register form */
+  .register-wrap {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    transition: all 0.3s ease;
+   }
+  
+  /* Title Styling */
+  .register-form .text-center h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Label Styling */
+  .form-label {
+    font-weight: 600;
+    color: #3e3e3e;
+    font-size: 0.9rem;
+    display: flexbox;
+  }
+  
+  /* Input Styling */
+  .form-control {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+    display: inline;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .eye-icon-btn {
+    cursor: pointer;
+    padding: 0;
+    border: none;
+    background: transparent;
+  }
+   
+  
+  .input-group-append .eye-icon-btn:hover {
+    color: #0056b3;
+  }
+  
+  /* Gender Radio Button */
+  .gender-details {
+    margin-bottom: 20px;
+  }
+  
+  .gender-title {
+    font-weight: 600;
+    color:#3e3e3e;
+  }
+  
+  .category {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .gender-radio {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Button Styling */
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  button[type="submit"]:active {
+    background-color: #00408f;
+  }
+  
+  .mb-4 {
+    margin-bottom: 20px !important;
+  }
+  
+  /* Link Styling */
+  a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  a:hover {
+    color: #0056b3;
+  }
+  
+  /* Social Login Button */
+  .text-center.mt-4 .google-login {
+    background-color: #4285F4;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .text-center.mt-4 .google-login:hover {
+    background-color: #357ae8;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .register-form {
+      padding: 10px;
+    }
+  
+    .register-form .text-center h2 {
+      font-size: 1.75rem;
+    }
+  
+    .form-control {
+      padding: 12px;
+    }
+  
+    .input-group-append .eye-icon-btn {
+      font-size: 1.2rem;
+    }
+  
+    .gender-radio {
+      font-size: 0.9rem;
+    }
+  
+    button[type="submit"] {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .register-form {
+      padding: 25px;
+      max-width: 100%;
+    }
+  
+    .form-control {
+      padding: 10px;
+    }
+  
+    .input-group-append .eye-icon-btn {
+      font-size: 1.2rem;
+    }
+  }
+  
+  /* Styling for image on left */
+  /* img.img-fluid {
+    border-radius: 4px;
+    max-width: 100%;
+    height: auto;
+    object-fit:fill;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  } */
+  
+  
+
+  
